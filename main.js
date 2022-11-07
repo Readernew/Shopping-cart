@@ -73,7 +73,7 @@ function addProductToCart(title,price,productImg){
   var cartItemNames =cartItems.getElementsByClassName('cart-product-title')
   for (var i=0;  i< cartItemNames.length; i++){
     if(cartItemNames[i].innerText==title){
-    alert('Bu ürünü sepetinize zaten eklediniz');
+    alert('You have already added this product to your cart');
     return;
      
     }
